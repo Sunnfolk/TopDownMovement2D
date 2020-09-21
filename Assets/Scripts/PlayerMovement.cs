@@ -8,12 +8,10 @@ public class PlayerMovement : MonoBehaviour
     // This allows us to change the variable at runtime 
     [SerializeField] private float _speed = 5f;
 
-    // Variables used to define our input
     private float _xMove = 0f;
     private float _yMove = 0f;
     private Vector2 _moveVector;
 
-    // Component type variable used to gain acces to the Rigidbody2D
     private Rigidbody2D _rigidBody2D;
 
     void Start ()
